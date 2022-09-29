@@ -1,4 +1,3 @@
-# EJEMPLO DE UTLIZACION DEL INPUT
 <Input
               element="input"
               id="name"
@@ -9,8 +8,6 @@
               onInput={inputHandler}
             />
 
-
-# EJEMPLO DE UTLIZACION DEL BUTTON
 <Button inverse onClick={switchModeHandler}>
           SWITCH TO {isLoginMode ? "SIGNUP" : "LOGIN"}
         </Button>
